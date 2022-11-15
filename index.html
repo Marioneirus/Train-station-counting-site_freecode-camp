@@ -10,10 +10,20 @@
 </head>
 
 <body>
+    <dev class="modal"></dev>
     <h1>People entered</h1>
     <h2 id="count-el">0</h2>
-    <button id="increment-btn" onclick="increment()">INCREMENT</button>
-    <button id="save-btn" onclick="save()">SAVE</button>
+    <dev class="RB">
+        <button id="increment-btn" onclick="increment()">INCREMENT</button>
+        <button id="decrease-btn" onclick="decrease()">DECREASE</button>
+        <button id="save-btn" onclick="save()">SAVE</button>
+    </dev>
+    
+    <button id="reset-btn" onclick="reset()">RESET</button>
+
+    <div class="save-entries">
+        <p>Previouse entries:</p><p id="save-el"> </p>
+    </div>
     <script src="/index.js"></script>
 </body>
 

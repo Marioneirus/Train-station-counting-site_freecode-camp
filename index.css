@@ -43,7 +43,7 @@ button {
 }
 
 #increment-btn {
-    background-color: darkred;
+    background-color: rgb(19, 81, 189);
     margin-bottom: 10px;
     opacity: 0.8;
 }
@@ -51,4 +51,39 @@ button {
 #save-btn {
     background-color: darkgreen;
     opacity: 0.8;
+}
+
+#decrease-btn {
+    background-color: rgb(11, 101, 89);
+    opacity: 0.8;
+}
+
+#reset-btn {
+    background-color: darkred;
+    opacity: 0.8;
+
+}
+
+.save-entries{
+    display: flex;
+    padding-top: 3.5rem;
+    text-align: center;
+}
+
+.save-entries p{
+    margin: 5px;
+    text-align: center;
+}
+
+p{
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.RB{
+    margin-bottom: 20px;
+}
+
+.RB button{
+    margin: 10px;
 }
