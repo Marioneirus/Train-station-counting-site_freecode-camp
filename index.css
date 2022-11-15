@@ -1,0 +1,54 @@
+* {
+    padding: 0;
+    margin: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+body {
+    background-color: #333;
+    background: url(/jorge-ramirez-pozZmiDA8rI-unsplash\ \(1\).jpg) no-repeat center center/cover;
+    height: 100vh;
+    width: 100%;
+    color: #fff;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    font-weight: bolder;
+
+}
+
+h1 {
+    font-size: 3rem;
+    line-height: 3rem;
+    margin-bottom: 20px;
+}
+
+h2 {
+    font-size: 2.3rem;
+    line-height: 2rem;
+    margin-bottom: 30px;
+}
+
+button {
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border: none;
+    color: white;
+    width: 200px;
+    font-weight: bold;
+    border-radius: 5px;
+    font-size: 1rem;
+}
+
+#increment-btn {
+    background-color: darkred;
+    margin-bottom: 10px;
+    opacity: 0.8;
+}
+
+#save-btn {
+    background-color: darkgreen;
+    opacity: 0.8;
+}
